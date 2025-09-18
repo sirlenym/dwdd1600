@@ -38,8 +38,8 @@ nav a {
 }
 
 nav li.active a {
-    background-color: #4AC6D3;
-    color: #418585;
+    background-color: #8bb9bf;
+    color: #2b4242;
 }
 
 nav li a:hover {
