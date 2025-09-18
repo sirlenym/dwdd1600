@@ -18,7 +18,7 @@ header span {
 
 /* nav stuff here */
 nav {
-    background-color: #5fcdd9;
+    background-color: #18a4b3;
 }
 
 nav ul {
@@ -40,7 +40,7 @@ nav a {
 
 nav li.active a {
     background-color: #027373;
-    color: #5fcdd9;
+    color: #26bdcd;
 }
 
 nav li a:hover {
@@ -57,13 +57,13 @@ main h1 {
 }
 
 main h2 {
-    color: #5fcdd9;
+    color: #147084f2;
     margin-bottom: .2rem;
     font-weight: 700;
 }
 
 main h3 {
-    color: #376e8a;
+    color: #023d4f;
     margin-bottom: .2rem;
     font-size: 1.2rem;
 }
@@ -92,7 +92,8 @@ main strong {
 main ul {
     margin: 0;
     list-style-type: square;
-    padding: .5rem 30px;;
+    padding: .5rem 30px;
+    list-style-position: outside;
 }
 
 main ul li {
@@ -101,15 +102,17 @@ main ul li {
     font-size: 1rem;
     font-weight: 300;
     text-align: justify;
+    lighting-color: #376e8a;
 }
 
 main em {
     font-weight: 400;
+    font-style: normal;
 }
 
 main address {
     font-style: italic;
-    background-color: #5fcdd9;
+    background-color: #18a4b3;
     padding: .5rem;
     border-radius: 10px;
     border: 1px solid #027373;
@@ -117,10 +120,10 @@ main address {
 }
 
 main a {
-    color: #5fcdd9;
+    color: #084f57;
 }
 main a:hover {
-    color: rgb(43, 101, 124);
+    color: rgb(82, 188, 231);
 }
 
 /* footer stuff here */
