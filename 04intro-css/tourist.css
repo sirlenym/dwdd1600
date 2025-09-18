@@ -18,7 +18,7 @@ header span {
 
 /* nav stuff here */
 nav {
-    background-color: #18a4b3;
+    background-color: #CDFEFE;
 }
 
 nav ul {
@@ -39,8 +39,8 @@ nav a {
 }
 
 nav li.active a {
-    background-color: #027373;
-    color: #26bdcd;
+    background-color: #2dc1c1;
+    color: #0F484D;
 }
 
 nav li a:hover {
@@ -89,6 +89,12 @@ main strong {
     padding: .2rem .5rem;
 }
 
+dd {
+    font-style: normal;
+    color: #151d4c;
+    margin-left: 20px;
+}
+
 main ul {
     margin: 0;
     list-style-type: square;
@@ -122,6 +128,7 @@ main address {
 main a {
     color: #084f57;
 }
+
 main a:hover {
     color: rgb(82, 188, 231);
 }
