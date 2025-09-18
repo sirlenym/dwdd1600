@@ -1,5 +1,5 @@
 body {
-    font-family: "Oxygen", sans-serif;
+    font-family: "Libertinus Serif", serif;
     margin: 0;
 }
 
@@ -8,8 +8,9 @@ header {
     background-color: #eaeaea;
     padding: 1rem 10px;
 }
+
 header span {
-    color: #024873;
+    color: #027373;
     font-size: 1.6rem;
     font-weight: 700;
 }
@@ -17,26 +18,28 @@ header span {
 
 /* nav stuff here */
 nav {
-    background-color: #F2b705;
+    background-color: #5fcdd9;
 }
+
 nav ul {
     margin: 0;
     padding: 0 10px;
     list-style-type: none;
     display: flex;
 }
+
 nav a {
     display: block;
     padding: .83rem 1rem;
     text-decoration: none;
     font-size: 1.1rem;
-    color: #024873;
+    color: #027373;
     font-weight: 700;
 }
 
 nav li.active a {
-    background-color: #024873;
-    color: #F2b705;
+    background-color: #027373;
+    color: #5fcdd9;
 }
 
 nav li a:hover {
@@ -49,61 +52,72 @@ main {
 }
 
 main h1 {
-    color: #f20519;
+    color: #027373;
 }
+
 main h2 {
-    color:#024873;
+    color: #5fcdd9;
     margin-bottom: .2rem;
+    font-weight: 700;
 }
+
+main h3 {
+    color: #376e8a;
+    margin-bottom: .2rem;
+    font-size: 1.2rem;
+}
+
 main p {
     margin: 0;
-    color: #333;
+    color: #172026;
+    font-weight: 300;
+    line-height: 125%;
+    font-size: 1rem;
 }
+
 main ol {
     padding: .5rem 30px;
     background-color: #efefef;
 }
-main dl dt {
-    color:#f20519;
-    font-weight: 700;
+
+main strong {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1rem;
     margin-top: 1rem;
 }
-main dl dd {
-    color:#024873;
-    font-size: .9rem;
-    margin-left: 20px;
-}
+
 main ul {
-    list-style-type: circle;
+    color: #172026;
+    list-style-type: square;
 }
+
 main ul li {
     line-height: 125%;
     margin-bottom: .5rem;
-    font-size: .9rem;
-}
-main strong {
-    font-weight: 700;
-    color: #000;
+    font-size: 1rem;
+    font-weight: 300;
 }
 
 main em {
-    font-weight: 300;
-}
-main address {
-    font-style: normal;
-    background-color: #F2b705;
-    padding: .5rem;
-    border-radius: 10px;
-    border: 1px solid #024873;
-    width: 200px;
-}
-main a {
-    color:#024873;
-}
-main a:hover {
-    color: rgb(180,4,18);
+    font-weight: 400;
 }
 
+main address {
+    font-style: italic;
+    background-color: #5fcdd9;
+    padding: .5rem;
+    border-radius: 10px;
+    border: 1px solid #027373;
+    width: 200px;
+}
+
+main a {
+    color: #5fcdd9;
+}
+main a:hover {
+    color: rgb(43, 101, 124);
+}
 
 /* footer stuff here */
 footer {
@@ -111,6 +125,7 @@ footer {
     text-align: center;
     padding: 1rem 0;
 }
+
 footer p {
     margin: 0;
     font-size: .8rem;
