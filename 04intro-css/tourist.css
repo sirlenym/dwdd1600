@@ -88,10 +88,13 @@ main strong {
     padding: .2rem .5rem;
 }
 
-dd {
-    font-style: normal;
-    color: #151d4c;
-    margin-left: 20px;
+main ol li {
+    margin-bottom: .5rem;
+    line-height: 125%;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: justify;
+    lighting-color: #376e8a;
 }
 
 main ul {
