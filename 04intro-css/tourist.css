@@ -104,6 +104,8 @@ main ul {
     list-style-type: square;
     padding: .5rem 30px;
     list-style-position: outside;
+    font-style: normal;
+    background-color: #efefef;
 }
 
 main ul li {
