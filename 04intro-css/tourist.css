@@ -87,9 +87,11 @@ main strong {
     margin-top: 1rem;
     padding: .2rem .5rem;
 }
+
 main strong:hover {
     background-color: #d4f0f4;
 }
+
 main ol li {
     margin-bottom: .5rem;
     line-height: 125%;
@@ -97,7 +99,6 @@ main ol li {
     font-weight: 300;
     text-align: justify;
     color: #376e8a;
-    list-style-position: outside;
     list-style-type: decimal;
 }
 
@@ -105,7 +106,6 @@ main ul {
     margin: 0;
     list-style-type: square;
     padding: .5rem 30px;
-    list-style-position: calc(inside + 10px + 1rem);
     font-style: normal;
     background-color: #efefef;
 }
