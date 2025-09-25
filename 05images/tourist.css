@@ -148,7 +148,8 @@ figure.wrapped {
 }
 figure.wrapped img {
     width: 100%;
-    height: auto;}
+    height: auto;
+}
 figure.wrapped figcaption {
     font-size: .7rem;
     text-align: center;
@@ -166,9 +167,12 @@ div.gallery {
     gap: 30px 10px;
     
 }
-div.gallery figure {
-    margin: 0;
-    ;
+div.gallery figure img {
+    margin: 0 0 10px 0;
+    max-width: 100%;
+    flex-wrap: wrap;
+    height: auto;
+    float: center;
 }
 div.gallery figcaption {
     text-align: center;
