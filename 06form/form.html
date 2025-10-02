@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Sirleny Madrid">
+    <meta name="description" content="Learn about Honduras' culture, history, and natural beauty">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tourist.css">
+    <title>Honduras' Paradise</title>
+
+</head>
+
+<body>
+    <!--start the page head-->
+    <header>
+        <span>Honduras' Paradise</span>
+    </header>
+
+    <!--start the navigation-->
+    <nav>
+        <ul>
+            <li><a href="index.html">History</a></li>
+            <li><a href="cuisine.html">Cuisine</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li class="active"><a href="form.html">Survey</a></li>
+        </ul>
+    </nav>
+    <!--start the main content-->
+    <main>
+
+        <h1>Take Our Survey</h1>
+       <form method="get" class="survey-form" action="thanks.html">
+        <fieldset>
+                <legend>Personal Information</legend>
+                <label>First Name*</label><input type="text" name="fname" required>
+                <label>Last Name*</label><input type="text" name="lname" required>
+                <label>Cell Number*</label><input type="tel" name="phone" required placeholder="987 555 1234">
+                <label>Gender*</label>
+                <select name="gender" required>
+                    <option value="">Please Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+                <label>Email*</label><input type="email" name="email" required placeholder="you@example.com">
+            </fieldset>
+
+            <fieldset>
+                <legend>Questions</legend>
+                <p>How satisfied are you with our service?</p>
+                <label><input type="radio" name="method" value="very satisfied" checked>Very Satisfied</label>
+                <label><input type="radio" name="method" value="satisfied">Satisfied</label>
+                <label><input type="radio" name="method" value="neutral">Neutral</label>
+                <label><input type="radio" name="method" value="not satisfied">Not Satisfied</label>
+                <label><input type="radio" name="method" value="very unsatisfied">Very Unsatisfied</label>
+
+                <p>Would you recommend us to a friend?</p>
+                <label><input type="radio" name="recommend" value="definitely" checked>Definitely</label>
+                <label><input type="radio" name="recommend" value="probably">Probably</label>
+                <label><input type="radio" name="recommend" value="not sure">Not Sure</label>
+                <label><input type="radio" name="recommend" value="probably not">Probably Not</label>
+                <label><input type="radio" name="recommend" value="definitely not">Definitely Not</label>
+
+                <p>What aspects of our service would you like to see improved? (Select all that apply)</p>
+                <label><input type="checkbox" name="aspects" value="customer service">Customer Service</label>
+                <label><input type="checkbox" name="aspects" value="product quality">Product Quality</label>
+                <label><input type="checkbox" name="aspects" value="delivery time">Delivery Time</label>
+                <label><input type="checkbox" name="aspects" value="website usability">Website Usability</label>
+                
+            </fieldset>
+
+            <fieldset>
+                <legend>Ratings</legend>
+                <p>Compared to similar products other companies offer, how do you consider our product?</p>
+                <label><input type="radio" name="product" value="excellent">Excellent</label>
+                <label><input type="radio" name="product" value="good">Good</label>
+                <label><input type="radio" name="product" value="average">Average</label>
+                <label><input type="radio" name="product" value="poor">Poor</label>
+                <label><input type="radio" name="product" value="very poor">Very Poor</label>
+
+                <p>How easy was it to navigate our website?</p>
+                    <select name="time">
+                        <option value="none">Please Select</option>
+                        <option value="easy">Easy</option>
+                        <option value="moderate">Moderate</option>
+                        <option value="difficult">Difficult</option>
+                    </select>
+            </fieldset>
+
+            <label>Comments
+                <textarea name="comments"></textarea>
+            </label>
+
+            <input type="submit" value="Done with Survey">
+        </form>
+
+
+
+
+
+
+
+    </main>
+
+    <!--start the footer-->
+    <footer>
+        <p>&copy; 2025 &bull; Sirleny Madrid &bull; Web Essentials</p>
+    </footer>
+
+</body>
+
+
+</html>

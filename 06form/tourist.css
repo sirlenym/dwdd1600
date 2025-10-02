@@ -172,7 +172,7 @@ div.gallery figure img {
     max-width: 100%;
     flex-wrap: wrap;
     height: auto;
-    float: center;
+    
 }
 div.gallery figcaption {
     text-align: center;
@@ -183,6 +183,64 @@ div.gallery figcaption {
     padding: .2rem;
     background-color: #e0f7fa
 }
+
+.survey-form fieldset {
+    border: 1px solid #43a0b6;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+
+.survey-form legend {
+    color: #43a0b6;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.survey-form label {
+    margin: .5rem;
+    font-size: 1rem;
+    color: #333;
+}
+
+.survey-form label,
+.survey-form select,
+.survey-form [type=text],
+.survey-form [type=tel],
+.survey-form textarea {
+    display: block;
+}
+
+.survey-form [type=text],
+.survey-form [type=tel],
+.survey-form select,
+.survey-form textarea {
+    border: solid 1px #888;
+    padding: .3rem;
+    width: 250px;
+    border-radius: .3rem;
+    font-family: "Libertinus Serif", serif;
+    font-weight: 200;
+}
+
+.survey-form textarea {
+    height: 6rem;
+    font-style: italic;
+}
+
+.survey-form :required {
+    background-color: rgba(107, 166, 208, 0.1);
+}
+
+.survey-form [type=submit] {
+    background-color: #027373;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: white;
+    margin: 1rem 0 0 1vw; 
+}
+
+
 
 /* footer stuff here */
 footer {
