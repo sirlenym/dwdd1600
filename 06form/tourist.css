@@ -220,6 +220,7 @@ div.gallery figcaption {
 
 .survey-form [type=text],
 .survey-form [type=tel],
+.survey-form [type=email],
 .survey-form select,
 .survey-form textarea {
     border: solid 1px #888;
