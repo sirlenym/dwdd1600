@@ -140,40 +140,46 @@ main a {
 main a:hover {
     color: rgb(82, 188, 231);
 }
+
 /* image stuff here */
 figure.wrapped {
-    margin:0 0 0 10px;
+    margin: 0 0 0 10px;
     width: 30%;
     float: right;
 }
+
 figure.wrapped img {
     width: 100%;
     height: auto;
 }
+
 figure.wrapped figcaption {
     font-size: .7rem;
     text-align: center;
-     color: #027373;
+    color: #027373;
     border: #084f57 2px solid;
     border-radius: 5px;
     background-origin: padding-box;
     padding: .2rem;
     background-color: #e0f7fa
 }
+
 /* gallery stuff here */
 div.gallery {
     display: flex;
     flex-wrap: wrap;
     gap: 30px 10px;
-    
+
 }
+
 div.gallery figure img {
     margin: 0 0 10px 0;
     max-width: 100%;
     flex-wrap: wrap;
     height: auto;
-    
+
 }
+
 div.gallery figcaption {
     text-align: center;
     font-size: .8rem;
@@ -238,7 +244,7 @@ div.gallery figcaption {
     padding: 1rem 2rem;
     border-radius: 10px;
     color: white;
-    margin: 1rem 0 0 1vw; 
+    margin: 1rem 0 0 1vw;
 }
 
 
