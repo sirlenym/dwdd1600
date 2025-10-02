@@ -213,6 +213,7 @@ div.gallery figcaption {
 .survey-form select,
 .survey-form [type=text],
 .survey-form [type=tel],
+.survey-form [type=email],
 .survey-form textarea {
     display: block;
 }
