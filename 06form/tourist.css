@@ -188,6 +188,7 @@ div.gallery figcaption {
     border: 1px solid #43a0b6;
     border-radius: 3px;
     margin-bottom: 1rem;
+    padding: 1rem;
 }
 
 .survey-form legend {
