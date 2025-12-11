@@ -1,0 +1,275 @@
+/** Prevent problems from different browsers */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Libertinus Serif", serif;
+    margin: 0;
+}
+
+/* header stuff here */
+header {
+    background-color: #eaeaea;
+    padding: 1rem 10px;
+}
+
+header span {
+    color:#798ad4;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+/* small screen navigation */
+@media only screen and (max-width: 1024px) {
+    nav ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav a {
+        display: block;
+        text-align: center;
+        padding: .8rem;
+        color: #4e4d8b;
+        text-decoration: none;
+        border-bottom: solid 1px #eee;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    nav .active a {
+        background: #4498f9;
+        color: white;
+        background-image: linear-gradient(to bottom, #4e4d8b, #a49fe9);
+    }
+}
+
+/* end small screen navigation */
+
+/*LARGE SCREEN NAVIGATION*/
+@media only screen and (min-width: 1025px) {
+    nav {
+        background-color: #9794d5;
+    }
+
+    nav ul {
+        margin: 0;
+        padding: 0 10px;
+        height: 48px;
+        list-style-type: none;
+        display: flex;
+    }
+
+    nav a {
+        display: block;
+        padding: .83rem 1rem;
+        text-decoration: none;
+        font-size: 1.1rem;
+        color: #3538c6;
+        font-weight: 700;
+    }
+
+    nav li.active a {
+        background-color: #a2a0cd;
+        color: #645dea;
+    }
+
+    nav li a:hover {
+        color: white;
+    }
+
+}
+
+/* end large screen navigation *
+
+
+
+
+/* main content stuff here */
+main {
+    padding: 1rem 10px;
+}
+
+main h1 {
+    color: #122269;
+}
+
+main h2 {
+    color: #3538c6;
+    margin-bottom: .2rem;
+    font-weight: 700;
+}
+
+main h3 {
+    color: #3538c6;
+    margin-bottom: .2rem;
+    font-size: 1.2rem;
+}
+
+main p {
+    margin: 0;
+    color: #172026;
+    font-weight: 300;
+    line-height: 125%;
+    font-size: 1rem;
+}
+
+main ol {
+    padding: .5rem 30px;
+    background-color: #efefef;
+}
+
+main strong {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 1rem;
+    padding: .2rem .5rem;
+}
+
+main strong:hover {
+    background-color: #d4f0f4;
+}
+
+main ol li {
+    margin-bottom: .5rem;
+    line-height: 125%;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: justify;
+    color: #66659c;
+    list-style-type: decimal;
+}
+
+main ul {
+    margin: 0;
+    list-style-type: square;
+    padding: .5rem 30px;
+    font-style: normal;
+    background-color: #efefef;
+}
+
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: justify;
+    color: #645dea;
+}
+
+main em {
+    font-weight: 400;
+    font-style: normal;
+}
+
+main address {
+    font-style: italic;
+    background-color: #3538c6;
+    padding: .5rem;
+    border-radius: 10px;
+    border: 1px solid #66659c;
+    width: 200px;
+}
+
+main a {
+    color: #122269;
+}
+
+
+
+main a:hover {
+    color: rgb(111, 124, 242);
+}
+
+/* image stuff here */
+figure.wrapped {
+    margin: 0 0 0 10px;
+    width: 30%;
+    float: right;
+    margin-bottom: 2rem;
+}
+
+figure.wrapped img {
+    width: 100%;
+    height: 240px;
+}
+
+figure.wrapped figcaption {
+    font-size: .7rem;
+    text-align: center;
+    color: #66659c;
+    border: #3538c6 2px solid;
+    border-radius: 5px;
+    background-origin: padding-box;
+    padding: .2rem;
+    background-color: #e0f7fa
+}
+
+/* gallery stuff here */
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 10px;
+    align-items: center;
+    padding: .3rem;
+    justify-content: center;
+}
+
+
+div.gallery figure img {
+    margin: 0 0 10px 0;
+    max-width: 100%;
+    flex-wrap: wrap;
+    align-content: center;
+    height: auto;
+    border-radius: 5px;
+
+}
+
+div.gallery figure img:hover {
+    box-shadow: 0 0 10px #645dea;
+}
+
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #645dea;
+    border: #3538c6 2px solid;
+    border-radius: 5px;
+    padding: .2rem;
+    background-color: #e0f7fa
+}
+
+.survey-form fieldset {
+    border: 1px solid #66659c;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+
+
+/* footer stuff here */
+footer {
+    background-color: #eaeaea;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: .8rem;
+    color: #333;
+    letter-spacing: 3px;
+}
+
+ header,
+    nav,
+    main,
+    footer {
+        max-width: 64rem;
+        margin: 0 auto;
+
+    }
